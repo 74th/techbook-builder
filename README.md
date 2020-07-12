@@ -20,9 +20,10 @@
 - Chrome Browser : Vivlio Style HTML -> PDF
 - macOS Preview : PDF へのフォントの埋め込み
 
-## 原稿
+## 原稿とできるもののサンプル
 
 - [Markdown 原稿のサンプル](https://github.com/74th/techbook-builder/blame/master/article/1.file.md)
+- [生成された PDF のサンプル](https://github.com/74th/techbook-builder/raw/master/sample.pdf)
 
 ## 必要なもの
 
