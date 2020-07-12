@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/node_modules": true,
+    "article/*.html": true
+  },
+  "triggerTaskOnSave.on": true,
+  "triggerTaskOnSave.tasks": {
+    "build": ["**/article/*.md"]
+  },
+  "json.schemas": [],
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "git.postCommitCommand": "sync"
+}

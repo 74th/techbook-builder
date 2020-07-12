@@ -1,0 +1,96 @@
+/*
+ * Markdown PDF CSS
+ */
+
+body {
+  font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", serif, "Meiryo",
+    "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif,
+    "Droid Sans Fallback";
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+  padding: 9px;
+  line-height: 19px;
+}
+
+blockquote {
+  background: rgba(127, 127, 127, 0.1);
+  border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+  height: 1.4em;
+}
+
+/* for inl./src/frontendine code */
+:not(pre):not(.hljs) > code {
+  color: #000000; /* Change the old color so it seems less like an error */
+  font-size: inherit;
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+  page-break-after: always;
+}
+
+figure {
+  text-align: center;
+}
+
+figure span {
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+figure span:before {
+  content: "▲";
+}
+
+figure figcaption:before {
+  content: "▲";
+}
+figure figcaption {
+  text-align: "center";
+}
+
+p {
+  text-indent: 1em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+ul {
+  padding-left: 2em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+ul ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+img.icon {
+  max-height: 1em;
+  max-width: 1em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+figure.wide {
+  margin-right: 0px;
+  margin-left: 0px;
+}
