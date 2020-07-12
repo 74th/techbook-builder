@@ -20,6 +20,10 @@
 - Chrome Browser : Vivlio Style HTML -> PDF
 - macOS Preview : PDF への文字の埋め込み
 
+## 原稿
+
+- [Markdown 原稿のサンプル](https://github.com/74th/techbook-builder/blame/master/article/1.file.md)
+
 ## 必要なもの
 
 - Python 3.6 以降
@@ -37,10 +41,6 @@ pip install invoke
 npm install -g yarn
 yarn
 ```
-
-## 原稿のフォルダ
-
-- [Markdown 原稿のサンプル](https://github.com/74th/techbook-builder/blame/master/article/1.file.md)
 
 ## 入稿ファイルのビルド
 
