@@ -7,8 +7,6 @@
 
 また、使用しているコンテンツは [VS Code Ninja Guide](https://74th.booth.pm/items/1973166) ですが、このコンテンツに含まれる全ての本文がこの中に含まれているわけではありません。
 
-[生成したファイルのサンプル（ただしフォント埋め込み前）](./sample.pdf)
-
 ## なぜこれを使っているか
 
 - Markdown ベースで入稿データを作りたい。
@@ -18,7 +16,7 @@
 ## 主に使っているツール
 
 - [markdown-pdf-cli](https://github.com/74th/markdown-pdf-cli) : [VS Code の Markdown を PDF に変換するツール](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) が、絵文字や PlantUML に対応していて、素敵なので Markdown から HTML にする部分に使っています。
-- [Vivlio Style](https://vivliostyle.org/) : CSS 組版。
+- [Vivlio Style](https://vivliostyle.org/) : CSS 組版。A5 サイズに組版する、目次ページを作る、
 - Chrome Browser : Vivlio Style HTML -> PDF
 - macOS Preview : PDF への文字の埋め込み
 
@@ -39,6 +37,10 @@ pip install invoke
 npm install -g yarn
 yarn
 ```
+
+## 原稿のフォルダ
+
+- [Markdown 原稿のサンプル](https://github.com/74th/techbook-builder/blame/master/article/1.file.md)
 
 ## 入稿ファイルのビルド
 
