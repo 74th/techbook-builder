@@ -18,7 +18,7 @@
 - [markdown-pdf-cli](https://github.com/74th/markdown-pdf-cli) : [VS Code の Markdown を PDF に変換するツール](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) が、絵文字や PlantUML に対応していて、素敵なので Markdown から HTML にする部分に使っています。
 - [Vivlio Style](https://vivliostyle.org/) : CSS 組版。A5 サイズに組版する、目次ページを作る、
 - Chrome Browser : Vivlio Style HTML -> PDF
-- macOS Preview : PDF への文字の埋め込み
+- macOS Preview : PDF へのフォントの埋め込み
 
 ## 原稿
 
