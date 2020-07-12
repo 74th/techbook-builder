@@ -23,7 +23,7 @@
 ## 原稿とできるもののサンプル
 
 - [Markdown 原稿のサンプル](https://github.com/74th/techbook-builder/blame/master/article/1.file.md)
-- [生成された PDF のサンプル](https://github.com/74th/techbook-builder/raw/master/sample.pdf)
+- [生成された PDF のサンプル](https://github.com/74th/techbook-builder/raw/master/sample.pdf) ただし、Chrome で PDF 生成をしたところで、フォントの埋め込み、ノンブルの付与をする前のもの。
 
 ## 必要なもの
 
