@@ -1,0 +1,5 @@
+node_modules
+article/*.pdf
+article/*.html
+vivliostyle-viewer
+out
