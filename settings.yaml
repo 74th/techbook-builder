@@ -1,0 +1,70 @@
+# "Output format: pdf, html, png, jpeg. Multiple output formats support"
+type: pdf
+# Excluded file name of convertOnSave option
+convertOnSaveExclude: []
+# Output Directory. All '\\' need to be written as '\\\\' (Windows)
+outputDirectory: ""
+# If markdown-pdf.outputDirectoryRelativePathFile option is set to true, the relative path set with markdown-pdf.styles is interpreted as relative from the file"
+outputDirectoryRelativePathFile: true
+# A list of local paths to the stylesheets to use from the markdown-pdf. All '\\' need to be written as '\\\\'."
+styles: [
+  "../css/markdown.css",
+  "../css/markdown-pdf.css",
+  "../css/headers.css",
+]
+# If markdown-pdf.stylesRelativePathFile option is set to true, the relative path set with markdown-pdf.styles is interpreted as relative from the file"
+stylesRelativePathFile: true
+# Enable the inclusion of default Markdown styles (VSCode, markdown-pdf)"
+includeDefaultStyles: false
+# Enable Syntax highlighting"
+highlight: true
+# Set the style file name. for example: github.css, monokai.css ... https://github.com/isagalaev/highlight.js/tree/master/src/styles"
+highlightStyle: ""
+# Enable line breaks"
+breaks: false
+# Path to a Chromium or Chrome executable to run instead of the bundled Chromium."
+executablePath: ""
+# Scale of the page rendering.
+scale: 1
+# pdf only. Display header and footer.
+displayHeaderFooter: true
+# pdf only. HTML template for the print header.
+headerTemplate: "<div style=\"font-size: 9px; margin-left: 1cm;\"> <span class='title'></span></div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \"> <span class='date'></span></div>"
+# pdf only. HTML template for the print footer.
+footerTemplate: "<div style=\"font-size: 9px; margin: 0 auto;\"> <!--<span class='pageNumber'></span>--></div>"
+# pdf only. Print background graphics.
+printBackground: true
+# pdf only. Paper orientation. portrait or landscape.
+orientation: portrait
+# pdf only. Paper ranges to print, e.g., '1-5, 8, 11-13'.
+pageRanges: ""
+# pdf only. Paper format [Letter, Legal, Tabloid, Ledger, A0, A1, A2, A3, A4, A5, A6].
+format: B5
+# pdf only. Paper width, accepts values labeled with units(mm, cm, in, px). If it is set, it overrides the markdown-pdf.format option.
+width: "182mm"
+# pdf only. Paper height, accepts values labeled with units(mm, cm, in, px). If it is set, it overrides the markdown-pdf.format option.
+height: "257mm"
+margin:
+  # Page Option. Border Top. units: mm, cm, in, px
+  top: 1.5cm
+  # Page Option. Border bottom. units: mm, cm, in, px
+  bottom: 1cm
+  # Page Option. Border right. units: mm, cm, in, px
+  right: 1cm
+  # Page Option. Border left. units: mm, cm, in, px
+  left: 1cm
+# jpeg only. The quality of the image, between 0-100. Not applicable to png images.
+quality: 100
+clip:
+  # x-coordinate of top-left corner of clip area.
+  x: null
+  # y-coordinate of top-left corner of clip area.
+  y: null
+  # width of clipping area.
+  width: null
+  # height of clipping area.
+  height: null
+# Hides default white background and allows capturing screenshots with transparency.
+omitBackground: false
+# Statusbar message timeout [milliseconds]
+StatusbarMessageTimeout: 10000

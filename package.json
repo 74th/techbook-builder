@@ -1,0 +1,19 @@
+{
+  "name": "vscode-remote-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "markdown-pdf-cli": "git+https://github.com/74th/markdown-pdf-cli.git#7590b90",
+    "vivliostyle-savepdf": "^1.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
