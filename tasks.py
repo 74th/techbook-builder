@@ -116,3 +116,6 @@ def open_vivliostyle(c):
     # )
 
     c.run("npx http-server -p 8000 -c-1")
+
+if __name__ == "__main__":
+    build(invoke.Context())
